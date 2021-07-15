@@ -1,0 +1,19 @@
+{
+    "name": "piggy-loyalty/oauth2-younium",
+    "description": "oauth2-younium",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PiggyLoyalty\\Oauth2Younium\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stefan Leenen",
+            "email": "stefan@piggy.nl"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.6"
+    }
+}
