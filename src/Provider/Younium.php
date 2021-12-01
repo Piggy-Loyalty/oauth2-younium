@@ -20,7 +20,7 @@ class Younium extends AbstractProvider
 
     public function getBaseAccessTokenUrl(array $params)
     {
-        return "https://younium-identity-server-sandbox.azurewebsites.net/connect/token";
+        return "https://younium-identity-server.azurewebsites.net/connect/token";
     }
 
     public function getResourceOwnerDetailsUrl(AccessToken $token)
